@@ -1,0 +1,73 @@
+
+#divProdutos {
+
+    border-top: 2px solid black;
+    padding-top: 2%;
+
+    width: 60%;
+    height: 100%;
+    max-height: 100%;
+
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+    row-gap: 100px;
+    column-gap: 100px;
+
+    justify-content: center;
+    
+    margin-top: 5%;
+    
+
+}
+
+
+#divCamisa {
+
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-top: 1%;
+    
+}
+
+#divCamisa:hover {
+    transition: transform .5s;
+    transform: scale(1.2);
+    transition: filter 1s;
+    filter: brightness(0.5);
+}
+
+#imagemCamisa {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+#nomeCamisa {
+
+    font-family: 'Poppins', sans-serif;
+    bottom: -6%;
+    color: black;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.bg_video{
+	position: fixed; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background-size: cover; 
+    align-items: center;
+}
+
+@media (max-width: 966px) {
+    #divProdutos {
+        padding-top: 8%;
+    }
+}

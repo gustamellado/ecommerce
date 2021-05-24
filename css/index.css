@@ -1,0 +1,290 @@
+#produtoGen {
+
+    padding-bottom: 1%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(607px, 1fr));
+
+    width: 80%;
+
+    justify-content:space-around;
+    
+    column-gap: 3%;
+    row-gap: 3%;
+
+    margin-top: 3%;
+    
+}
+
+#genMasc{
+
+    margin-left: 8%;
+    height: 407px;
+    
+    width: 100%;
+    max-width: 607px;
+    
+    border-radius: 10%;
+    display: grid;
+
+    grid-template-rows: auto auto;
+
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+    position: relative;
+
+}
+
+#genFem {
+
+    margin-left: 8%;
+    height: 407px;
+
+    width: 100%;
+    max-width: 607px;
+
+    
+    border-radius: 10%;
+    display: grid;
+    
+    grid-template-rows: auto auto;
+
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+#buttonGen {
+
+    width: 200px;
+    height: 50px;
+
+    position: relative;
+    background: transparent;
+
+    border: 1px solid rgb(255, 255, 255);
+
+    font-size: 25px;
+
+
+}
+
+
+#buttonGen:hover {
+
+    /*border: 2px solid black;*/
+    background: white;
+    
+}
+
+#buttonGen:active {
+    transform: translateY(3px);
+}
+
+#buttonGen div {
+
+    width: 200px;
+    height: 50px;
+    color: #EDEDED;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+#buttonGen div:hover {
+    color: black;
+    z-index: 50;
+    
+}
+
+
+#escritaIma {
+    font-size: 40px ;
+    
+
+   text-align: center;
+   top: 75%;
+
+   font-family: 'Poppins', sans-serif;
+
+   margin-top: 5%;
+
+   color: white;
+
+}
+
+
+
+#tittle{
+
+    border-top: 2px solid black;
+    width: 80%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+    margin-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+
+}
+
+#title h2{
+    margin-top: 2%;
+    font-size: 2.0rem;
+}
+
+#Ofertas {
+
+    width: 60%;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+    row-gap: 100px;
+    column-gap: 100px;
+
+    justify-content: center;
+    
+    
+    margin-top: 2%;
+    
+
+}
+
+#divCamisa {
+
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-top: 1%;
+
+}
+
+#divCamisa:hover {
+    transition: transform .5s;
+    transform: scale(1.2);
+    transition: filter 1s;
+    filter: brightness(0.5);
+}
+
+#imagemCamisa {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+#escritaPromo {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    bottom: -6%;
+    color: rgb(252, 54, 5);
+    text-align: center;
+}
+
+@media (max-width: 966px) {
+
+    #Ofertas {
+        padding-top: 8%;
+    }
+
+    #produtoGen {
+
+        
+        justify-content: center;
+        padding-left: 20%;
+
+    }
+
+    #genMasc{
+
+        margin-left: 8%;
+        height: 303px;
+        
+        width: 100%;
+        max-width: 403px;
+        
+        border-radius: 10%;
+        display: grid;
+    
+        grid-template-rows: auto auto;
+    
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    
+        position: relative;
+    
+    }
+    
+    #genFem {
+    
+        margin-left: 8%;
+        height: 303px;
+    
+        width: 100%;
+        max-width: 403px;
+    
+        
+        border-radius: 10%;
+        display: grid;
+        
+        grid-template-rows: auto auto;
+    
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    
+    }
+    
+    #buttonGen {
+    
+        width: 200px;
+        height: 50px;
+    
+        position: relative;
+        background: transparent;
+    
+        border: 1px solid rgb(255, 255, 255);
+    
+        font-size: 25px;
+    
+    
+    }
+    
+    
+    #buttonGen:hover {
+    
+        /*border: 2px solid black;*/
+        background: white;
+        
+    }
+    
+    #buttonGen div {
+    
+        width: 200px;
+        height: 50px;
+        color: #EDEDED;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        
+    }
+    
+    #buttonGen div:hover {
+        color: black;
+        z-index: 50;
+        
+    }
+
+}
